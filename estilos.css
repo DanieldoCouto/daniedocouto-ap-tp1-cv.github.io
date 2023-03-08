@@ -1,0 +1,235 @@
+div.conteiner {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 200;
+    height: auto;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+div.row {
+    background-color: bisque;
+    padding: 2%;
+}
+
+#miImagen {
+    border-radius: 50%;
+}
+
+h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    -webkit-text-fill-color: rgb(118, 98, 72);
+}
+
+#miInfoPer {
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+img {
+    width: 13rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#misDatos {
+    text-align: center;
+    height: 25%;
+    padding-bottom: 3%;
+}
+
+#sobreMi {
+    -webkit-text-fill-color: rgb(141, 107, 64);
+}
+
+hr#miDivider {
+    width: 85%;
+}
+
+#bgProgress {
+    height: 1.3rem;
+}
+
+#progress {
+    background-color: rgb(134, 103, 68);
+}
+
+#progressleng {
+    background-color: rgb(198, 156, 108);
+}
+
+#miDivButt {
+    height: auto;
+    margin-bottom: 5%;
+    margin-left: 21%;
+
+}
+
+#misRedes {
+    height: auto;
+    margin-top: 5%;
+    padding: 1%;
+    width: 100%;
+}
+
+#miButtom {
+    background-color: rgb(198, 156, 108);
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+#miButtom:hover {
+    background-color: rgb(128, 98, 63);
+    color: white;
+}
+
+i {
+    font-size: 1.8rem;
+    color: rgb(128, 98, 63);
+    padding: 10px;
+}
+
+#miButtomEnviar {
+    background-color: rgb(198, 156, 108);
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: inline-block;
+}
+
+#miButtomEnviar:hover {
+    background-color: rgb(128, 98, 63);
+    color: white;
+    border: 0;
+
+}
+
+#miForm {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 200;
+    height: 650px;
+    ;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+#miText {
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(248,249,251);
+}
+
+#miMensaje {
+    margin-top: 230px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    div.conteiner {
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 200;
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        -webkit-text-fill-color: rgb(118, 98, 72);
+    }
+
+    img {
+        width: 16rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    #misDatos {
+        text-align: center;
+        height: auto;
+        padding-bottom: 3%;
+        font-size: 1.3rem;
+    }
+
+    #miDivButt {
+
+        height: auto;
+        margin-bottom: 5%;
+        margin-left: 33%;
+
+    }
+
+    #misRedes {
+
+        margin-left: 7%;
+    }
+
+    #miButtom {
+        background-color: rgb(198, 156, 108);
+        color: white;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: inline-block;
+    }
+
+    #miForm {
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 200;
+        height: auto;
+        ;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        background-color: antiquewhite;
+    }
+
+    #miMensaje {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    #miDivButt {
+
+        margin-left: 20%;
+
+    }
+
+    #misRedes {
+
+        margin-left: 10%;
+    }
+
+ 
+  
+}
